@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Torre de Hanoi</title>
+    <title>Hanoi Tower</title>
 
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900" rel="stylesheet">
 </head>
 <body>
     <div class="infos">
-        <h1>Torre de Hanoi</h1>
-        <p>Insira seu nome para jogar</p>
+        <h1>Hanoi Tower</h1>
+        <p>Enter your name to play</p>
         <input type="text" class="player-name" id="playerName">
         <br>
-        <button class="btn-game" id="newGame">Jogar</button>
+        <button class="btn-game" id="newGame">Play</button>
         <br>
-        <button class="btn-restart" id="restartGame">Reiniciar</button>
-        <p>Movimentos: <span class="counter">0</span></p>
+        <button class="btn-restart" id="restartGame">Restart</button>
+        <p>movements: <span class="counter">0</span></p>
     </div>
     <div class="boards disabled">
         <div class="board" id="first">
@@ -28,19 +28,19 @@
                 <div class="ring ringOrange" data-size="75" draggable="false"></div>
                 <div class="ring ringBlue" data-size="90" draggable="false"></div>
             </div>
-            <p>Inicio</p>
+            <p>first</p>
         </div>
 
         <div class="board" id="middle">
             <div class="dropzone">
             </div>
-            <p>Meio</p>
+            <p>middle</p>
         </div>
 
         <div class="board" id="last">
             <div class="dropzone">
             </div>
-            <p>Fim</p>
+            <p>last</p>
         </div>
     </div>
 
